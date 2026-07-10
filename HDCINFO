@@ -11,9 +11,9 @@ newSpawnTable => { "spawnName": "Jackboot", "addOriginalThing": "true", "persist
 
 // Pistol Zombieman Spawn Entries
 // addSpawnTableNestedEntry => { "tableName": "ZombieManReplaces", "name": "HDRE.PistolZombieSpawns", "weight": "#psz_autos_spawn_bias", "persists": "#psz_persistent_spawning" }
-addSpawnTableNestedEntry => { "tableName": "ZombieSemiStormtrooper", "name": "HDRE.PistolZombieSpawns", "weight": "#psz_autos_spawn_bias", "persists": "#psz_persistent_spawning" }
-addSpawnTableNestedEntry => { "tableName": "ZombieSMGStormtrooper", "name": "HDRE.PistolZombieSpawns", "weight": "#psz_semis_spawn_bias", "persists": "#psz_persistent_spawning" }
-addSpawnTableNestedEntry => { "tableName": "ZombieAutoStormtrooper", "name": "HDRE.PistolZombieSpawns", "weight": "#psz_smgs_spawn_bias", "persists": "#psz_persistent_spawning" }
+addSpawnTableNestedEntry => { "tableName": "ZombieSemiStormtrooper", "name": "HDRE.PistolZombieSpawns", "weight": "#psz_semis_spawn_bias", "persists": "#psz_persistent_spawning" }
+addSpawnTableNestedEntry => { "tableName": "ZombieSMGStormtrooper", "name": "HDRE.PistolZombieSpawns", "weight": "#psz_smgs_spawn_bias", "persists": "#psz_persistent_spawning" }
+addSpawnTableNestedEntry => { "tableName": "ZombieAutoStormtrooper", "name": "HDRE.PistolZombieSpawns", "weight": "#psz_autos_spawn_bias", "persists": "#psz_persistent_spawning" }
 
 addSpawnTableSingleEntry => { "tableName": "HDRE.PistolZombieSpawns", "name": "PistolZombieFireSelect", "weight": "#psz_firemode_chance_bias", "persists": "#psz_persistent_spawning" }
 addSpawnTableSingleEntry => { "tableName": "HDRE.PistolZombieSpawns", "name": "PistolZombieSemi", "weight": "1.0", "persists": "#psz_persistent_spawning" }
@@ -28,9 +28,9 @@ addSpawnTableNestedEntry => { "tableName": "UndeadHomeboy", "name": "HDRE.Pistol
 
 // Revolver Zombieman Spawn Entries
 // addSpawnTableNestedEntry => { "tableName": "ZombieManReplaces", "name": "HDRE.RevolverZombieSpawns", "weight": "#rvz_autos_spawn_bias", "persists": "#rvz_persistent_spawning" }
-addSpawnTableNestedEntry => { "tableName": "ZombieSemiStormtrooper", "name": "HDRE.RevolverZombieSpawns", "weight": "#rvz_autos_spawn_bias", "persists": "#rvz_persistent_spawning" }
-addSpawnTableNestedEntry => { "tableName": "ZombieSMGStormtrooper", "name": "HDRE.RevolverZombieSpawns", "weight": "#rvz_semis_spawn_bias", "persists": "#rvz_persistent_spawning" }
-addSpawnTableNestedEntry => { "tableName": "ZombieAutoStormtrooper", "name": "HDRE.RevolverZombieSpawns", "weight": "#rvz_smgs_spawn_bias", "persists": "#rvz_persistent_spawning" }
+addSpawnTableNestedEntry => { "tableName": "ZombieSemiStormtrooper", "name": "HDRE.RevolverZombieSpawns", "weight": "#rvz_semis_spawn_bias", "persists": "#rvz_persistent_spawning" }
+addSpawnTableNestedEntry => { "tableName": "ZombieSMGStormtrooper", "name": "HDRE.RevolverZombieSpawns", "weight": "#rvz_smgs_spawn_bias", "persists": "#rvz_persistent_spawning" }
+addSpawnTableNestedEntry => { "tableName": "ZombieAutoStormtrooper", "name": "HDRE.RevolverZombieSpawns", "weight": "#rvz_autos_spawn_bias", "persists": "#rvz_persistent_spawning" }
 
 addSpawnTableSingleEntry => { "tableName": "HDRE.RevolverZombieSpawns", "name": "RevolverZombieman355", "weight": "#rvz_355_chance_bias", "persists": "#rvz_persistent_spawning" }
 addSpawnTableSingleEntry => { "tableName": "HDRE.RevolverZombieSpawns", "name": "RevolverZombieman9mm", "weight": "1.0", "persists": "#rvz_persistent_spawning" }
