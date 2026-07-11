@@ -20,11 +20,6 @@ addSpawnTableSingleEntry => { "tableName": "HDRE.PistolZombieSpawns", "name": "P
 
 addSpawnTableSingleEntry => { "tableName": "DeadZombieManReplaces", "name": "PistolZombiemanCorpse", "weight": "#psz_corpse_spawn_bias", "persists": "#psz_persistent_spawning" }
 
-// Add UndeadHomeboy table in case it doesn't already exist, remove HDest UndeadHomeboy in case it does, insert HDRE Pistol Zombie in its place
-newSpawnTable => { "spawnName": "UndeadHomeboy", "addOriginalThing": "false", "persists": "true" }
-removeSpawnTableEntry => { "tableName": "UndeadHomeboy", "name": "UndeadHomeboy" }
-addSpawnTableNestedEntry => { "tableName": "UndeadHomeboy", "name": "HDRE.PistolZombieSpawns", "weight": "1.0", "persists": "true" }
-
 
 // Revolver Zombieman Spawn Entries
 // addSpawnTableNestedEntry => { "tableName": "ZombieManReplaces", "name": "HDRE.RevolverZombieSpawns", "weight": "#rvz_autos_spawn_bias", "persists": "#rvz_persistent_spawning" }
